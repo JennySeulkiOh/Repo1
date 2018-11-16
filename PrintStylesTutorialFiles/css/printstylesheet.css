@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media print {
+ 
+header h1, header nav, footer, img {
+	display: none;
+	color: #000;
+}
+		
+
+img {
+	max-width: 500px;
+		
+}	
+	
+video, audio, object, embed {
+	display: none;
+}
+	
+
+
+@page {
+	
+	margin: 0.5cm;
+		
+}
+
+@page:first {
+	margin: 1cm 2cm;
+	
+} 
+
+body {
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	line-height: 1.3;
+	
+}
+
+#main h1 {
+	font-size: 24pt;
+	color:#000000;
+	
+}
+
+h2 {
+	font-size: 14pt;
+	margin-top: 25px;
+	color: #000000;
+}
+
+aside h2{
+	font-size: 18pt;
+	color: #000000;
+}
+
+blockquote, ul {
+	margin: 0;
+}
+
+#main a{
+	list-style: none;
+	color: #000000;
+}
+	
+.cupidLink a {
+	color: #000000;
+}	
+
+
+
+#navWrapper {
+	display: none;	
+}
+	
+#banner {
+	display: none;	
+}
+	
+#banner #logo img{
+	max-width: 500px;
+	
+		
+}	
+	
+header:before {
+	display: block;
+	content: "Thank you for printing our content at www.thedesignlist.com.";
+	margin-bottom: 10px;
+	border: 1px solid #bbb;
+	padding: 3px 5px;
+	font-style: italic;
+}
+
+	
+	
+p a {
+	word-wrap: break-word;
+	color: #000000;
+}
+
+
+
+#sidebar p {
+color: #000000;
+}
+	
+#sidebar a {
+display: none;	
+}
+
+#sidebar p {
+page-break-before: always;
+}	
+	
+
+aside {
+border-top: 1px solid #bbb;
+margin-top: 30px;
+display: block;
+}
+
+#footer a {
+		color: #000000;
+	}
+	
+}
+
+
+
